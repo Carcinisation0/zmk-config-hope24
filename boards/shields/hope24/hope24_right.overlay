@@ -1,8 +1,8 @@
+#include "hope24.dtsi" // The shared dtsi file is included in the overlay
+
 &default_transform { // Offset of 4 because the left side has 4 columns
     col-offset = <4>;
 };
-
-#include "hope24.dtsi" // The shared dtsi file is included in the overlay
 
 // Label of the kscan node in the dtsi
 &kscan0 {
