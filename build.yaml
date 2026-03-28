@@ -21,4 +21,4 @@
 
 include:
 - board: nice_nano
-  shield:hope24
+  shield: hope24
