@@ -2,7 +2,7 @@ if SHIELD_HOPE24_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_HOPE24
-    default "My Keyboard"
+    default "hope24"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
