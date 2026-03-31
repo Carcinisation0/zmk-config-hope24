@@ -4,10 +4,9 @@
 
 #define ___ &trans
 
-#define BASE
-#define num
-#define nav
-#define fun
+#define base 0
+#define num 1
+#define nav 2
 
 // hyper key
 #define HYP LS(LC(LA(LGUI)))
@@ -35,7 +34,7 @@ keymap {
 };
 
   nav {
-    binings = <
+    bindings = <
 &kp ESC &kp DEL &kp UP &kp BACKSPACE   &kp L &kp O &kp U &kp Z
 &kp ENTER &kp LEFT &kp DOWN &kp RIGHT   &kp R &kp E &kp I &kp A
             &kp C &kp P   &kp H &kp K
